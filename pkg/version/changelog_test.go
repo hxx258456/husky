@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/go-courier/husky/pkg/version"
+	"github.com/hxx258456/husky/pkg/version"
 )
 
 func TestUpdateChangeLog(t *testing.T) {

@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/go-courier/husky/pkg/husky"
 	"github.com/go-courier/semver"
+	"github.com/hxx258456/husky/pkg/husky"
 	"github.com/pkg/errors"
 )
 

@@ -1,7 +1,7 @@
 package lintcommit
 
 import (
-	"github.com/go-courier/husky/pkg/conventionalcommit"
+	"github.com/hxx258456/husky/pkg/conventionalcommit"
 )
 
 func LintCommitMsg(commitMsg string) error {

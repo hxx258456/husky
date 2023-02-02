@@ -7,8 +7,8 @@ import (
 	"os/exec"
 	"regexp"
 
-	"github.com/go-courier/husky/pkg/conventionalcommit"
-	"github.com/go-courier/husky/pkg/log"
+	"github.com/hxx258456/husky/pkg/conventionalcommit"
+	"github.com/hxx258456/husky/pkg/log"
 )
 
 type LintCommit struct {

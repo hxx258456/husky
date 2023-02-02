@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 
-	"github.com/go-courier/husky/internal/version"
-	"github.com/go-courier/husky/pkg/husky"
-	"github.com/go-courier/husky/pkg/log"
+	"github.com/hxx258456/husky/internal/version"
+	"github.com/hxx258456/husky/pkg/husky"
+	"github.com/hxx258456/husky/pkg/log"
 	"github.com/spf13/cobra"
 )
 

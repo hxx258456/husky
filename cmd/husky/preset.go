@@ -3,8 +3,8 @@ package main
 import (
 	"path"
 
-	"github.com/go-courier/husky/cmd/husky/presets"
-	"github.com/go-courier/husky/pkg/husky"
+	"github.com/hxx258456/husky/cmd/husky/presets"
+	"github.com/hxx258456/husky/pkg/husky"
 	"github.com/spf13/cobra"
 )
 

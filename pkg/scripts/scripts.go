@@ -7,7 +7,7 @@ import (
 	"strings"
 	"text/template"
 
-	"github.com/go-courier/husky/pkg/log"
+	"github.com/hxx258456/husky/pkg/log"
 
 	"mvdan.cc/sh/v3/interp"
 	"mvdan.cc/sh/v3/syntax"

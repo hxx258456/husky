@@ -7,11 +7,11 @@ import (
 	"os/exec"
 	"sync"
 
-	"github.com/go-courier/husky/pkg/log"
 	"github.com/go-logr/logr"
+	"github.com/hxx258456/husky/pkg/log"
 
-	"github.com/go-courier/husky/pkg/conventionalcommit"
 	"github.com/go-courier/semver"
+	"github.com/hxx258456/husky/pkg/conventionalcommit"
 )
 
 type verIncr int

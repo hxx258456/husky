@@ -1,10 +1,11 @@
-module github.com/go-courier/husky
+module github.com/hxx258456/husky
 
 go 1.17
 
 require (
 	github.com/davecgh/go-spew v1.1.1
 	github.com/fatih/color v1.13.0
+	github.com/go-courier/husky v1.8.1
 	github.com/go-courier/semver v1.0.1
 	github.com/go-logr/logr v1.2.2
 	github.com/go-logr/stdr v1.2.2

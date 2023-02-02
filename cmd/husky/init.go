@@ -4,7 +4,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/go-courier/husky/pkg/husky"
+	"github.com/hxx258456/husky/pkg/husky"
 	"github.com/spf13/cobra"
 )
 

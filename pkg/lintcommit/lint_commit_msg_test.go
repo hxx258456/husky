@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/go-courier/husky/pkg/conventionalcommit"
+	"github.com/hxx258456/husky/pkg/conventionalcommit"
 	. "github.com/onsi/gomega"
 )
 

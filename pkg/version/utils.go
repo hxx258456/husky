@@ -8,10 +8,10 @@ import (
 	"os/exec"
 	"regexp"
 
-	"github.com/go-courier/husky/pkg/husky"
+	"github.com/hxx258456/husky/pkg/husky"
 
-	"github.com/go-courier/husky/pkg/scripts"
 	"github.com/go-courier/semver"
+	"github.com/hxx258456/husky/pkg/scripts"
 )
 
 func resolveBaseURI() (string, error) {

@@ -5,8 +5,8 @@ import (
 	"os"
 
 	"github.com/fatih/color"
-	"github.com/go-courier/husky/pkg/log"
-	"github.com/go-courier/husky/pkg/scripts"
+	"github.com/hxx258456/husky/pkg/log"
+	"github.com/hxx258456/husky/pkg/scripts"
 	"github.com/spf13/cobra"
 )
 

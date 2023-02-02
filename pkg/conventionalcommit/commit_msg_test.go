@@ -1,6 +1,7 @@
 package conventionalcommit
 
 import (
+	"os"
 	"testing"
 
 	. "github.com/onsi/gomega"
@@ -33,4 +34,18 @@ BREAKING CHANGE: extends key in config file is now used for extending other conf
 		NewWithT(t).Expect(cm.Type).To(Equal("feat"))
 		NewWithT(t).Expect(cm.BreakingChange).To(BeTrue())
 	})
+}
+
+func TestParseNewMessage(t *testing.T) {
+	msg, _ := os.ReadFile("./testdata/COMMIT_EDITMSG")
+	cm, err := ParseCommitMsg(string(msg))
+	NewWithT(t).Expect(err).To(BeNil())
+	NewWithT(t).Expect(cm.Type).To(Equal("ci"))
+	NewWithT(t).Expect(cm.Scope).To(BeEmpty())
+	NewWithT(t).Expect(cm.Header).To(Equal("update config"))
+	NewWithT(t).Expect(cm.Body).To(Equal("add mysql redis config\n"))
+	t.Log(cm.Type)
+	t.Log(cm.Scope)
+	t.Log(cm.Header)
+	t.Log(cm.Body)
 }
